@@ -1,0 +1,197 @@
+body{
+	
+	
+	margin:9px;
+	padding:0;
+	
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(img/farm1.jpeg);
+	background-position:center;
+	height:730px;
+	width:900px;
+	background-color:black;
+	
+	overflow:auto;
+	
+	
+	}
+.logo{
+	
+	position:fixed;
+	margin-top:9px;
+	left:16px;
+	top:8px;
+	
+}
+li{
+	list-style-type:none;
+	margin:0 2%;
+	font-size:105%;
+	padding-right:3%;
+	float:left;
+	padding:4.5px 18px;
+}
+a{
+	text-decoration:none;
+	color:white;
+	
+	font-family:helvitica;
+	padding:0;
+}
+.navigation{
+	
+	width:96%;
+	background-color:black;
+	border-radius:4px;
+	height:12%;
+	position:fixed;
+	text-align:center;
+	padding:0;
+	margin:0;
+	left:15px;
+	z-index:1;
+	
+	
+	
+}
+ul{
+	margin:0;
+	padding-left:55%;
+	
+	display:flex;
+	padding-top:2.9%;
+	
+}
+li:hover{
+	background-color:#e42b2b;
+	transition:0.6s ease;
+}
+h1{
+	
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	font-size:25px;
+	position:absolute;
+	top:38%;
+	left:31%;
+	letter-spacing:2.7px;
+	
+	
+}
+
+
+input{
+	border:3px solid #e42b2b;
+	height:35px;
+	width:470px;
+	border-radius:50px;
+	outline:none;
+	padding:0px 15px;
+}
+.search-box{
+	position:absolute;
+	margin:0;
+	border-radius:40px;
+	top:50%;
+	left:25%;
+	
+}
+.btn i{
+	color:black;
+	padding:2px;
+	outline:none;
+}
+.btn{
+	position:absolute;
+	padding:3.8px;
+	width:20px;
+	top:51%;
+	left:70%;
+		
+}
+.btn:hover{
+	width:40px;
+	background-color:#e42b2b;
+	border-radius:50px;
+	transition:0.6s ease;
+	
+}
+.s{
+	
+	border:3px solid black;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:540px;
+	left:20px;
+	border-radius:7px;
+	
+}
+.c{
+	
+	border:3px solid black;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:540px;
+	left:360px;
+	border-radius:7px;
+}
+.a{
+	border:3px solid black;
+	border-radius:7px;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:540px;
+	left:700px;
+	
+	
+}
+.desc{
+
+	padding:16px;
+	
+	text-align:center;
+	background-color:white;
+	
+	width:250px;
+	font-family:Helvetica, Arial, Sans-Serif;
+	font-size:16px;
+	height:12px;
+	position: absolute; 
+	bottom:0;
+	margin-bottom:4px;
+	
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5)
+	
+}
+img{
+	border-radius:5px;
+}
+.desc:hover{
+	background-color:#e42b2b;
+	transition:0.6s ease;
+	
+}
+.image:hover{
+	opacity:0.5;
+	transition:0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
